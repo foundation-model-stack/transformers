@@ -496,7 +496,7 @@ class BambaModelIntegrationTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        model_id = "ibm-fms/Bamba-9B"
+        model_id = "ibm-ai-platform/Bamba-9B"
         cls.model = BambaForCausalLM.from_pretrained(model_id, torch_dtype=torch.bfloat16, low_cpu_mem_usage=True)
         cls.tokenizer = AutoTokenizer.from_pretrained(model_id)
 
