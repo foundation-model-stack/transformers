@@ -49,8 +49,8 @@ Tips:
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model = AutoModelForCausalLM.from_pretrained("ibm-fms/Bamba-9B")
-tokenizer = AutoTokenizer.from_pretrained("ibm-fms/Bamba-9B")
+model = AutoModelForCausalLM.from_pretrained("ibm-ai-platform/Bamba-9B")
+tokenizer = AutoTokenizer.from_pretrained("ibm-ai-platform/Bamba-9B")
 
 message = ["Mamba is a snake with following properties  "]
 inputs = tokenizer(message, return_tensors='pt', return_token_type_ids=False)

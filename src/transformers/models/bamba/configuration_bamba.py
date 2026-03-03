@@ -25,7 +25,7 @@ class BambaConfig(PretrainedConfig):
     r"""
     This is the configuration class to store the configuration of a [`BambaModel`]. It is used to instantiate a
     BambaModel model according to the specified arguments, defining the model architecture. Instantiating a configuration
-    with defaults taken from [ibm-fms/Bamba-9.8b-2.2T-hf](https://huggingface.co/ibm-fms/Bamba-9.8b-2.2T-hf).
+    with defaults taken from [ibm-ai-platform/Bamba-9.8b-2.2T-hf](https://huggingface.co/ibm-ai-platform/Bamba-9.8b-2.2T-hf).
 
     The BambaModel is a hybrid [mamba2](https://github.com/state-spaces/mamba) architecture with SwiGLU.
     The checkpoints are  jointly trained by IBM, Princeton, and UIUC.
